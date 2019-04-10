@@ -4,6 +4,13 @@
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
   "startup": "before",
+  "arch": [
+  "aarch64",
+  "amd64",
+  "armhf",
+  "armv7",
+  "i386"
+    ],
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
